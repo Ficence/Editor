@@ -18,7 +18,7 @@ public class Main{
     private static JDA jda;
 
     public static void main(String[] args){
-        JDABuilder jdaBuilder = JDABuilder.createDefault("NjEzNTgxMjk0MjY1MTcxOTc5.XVzAHA.DtXfwitjD7oI2osHGueXc57yB88");
+        JDABuilder jdaBuilder = JDABuilder.createDefault("");
         EventWaiter waiter = new EventWaiter();
         jdaBuilder.enableCache(CacheFlag.VOICE_STATE);
         jdaBuilder.setActivity(Activity.watching(".help"));
